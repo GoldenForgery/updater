@@ -48,3 +48,4 @@ jobs:
         with:
           executable-name: ougon-updater
           target: ${{ matrix.platform.target }}
+          changes-file: ""
