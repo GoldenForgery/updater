@@ -6,7 +6,7 @@ edition = "2024"
 [dependencies]
 base16ct = { version = "0.3.0", features = ["alloc"] }
 bytes = "1.10.1"
-iced = { git = "ssh://git@github.com/iced-rs/iced.git", version = "0.14.0-dev", features = ["image", "tokio"] }
+iced = { git = "https://github.com/iced-rs/iced.git", version = "0.14.0-dev", features = ["image", "tokio"] }
 octocrab = "0.47.0"
 reqwest = "0.12.24"
 sha2 = "0.10.9"
