@@ -28,6 +28,9 @@ jobs:
             target: aarch64-apple-darwin
 
     runs-on: ${{ matrix.platform.runs-on }}
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
